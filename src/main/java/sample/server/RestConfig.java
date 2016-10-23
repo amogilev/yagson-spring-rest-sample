@@ -16,7 +16,7 @@ public class RestConfig extends WebMvcConfigurationSupport {
 
     @Bean
     public YaGsonHttpMessageConverter yagsonMessageConverter() {
-        return new YaGsonHttpMessageConverter(false);
+        return new YaGsonHttpMessageConverter();
     }
 
 
