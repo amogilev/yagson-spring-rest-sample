@@ -14,9 +14,6 @@ import java.util.stream.Collectors;
 public class PersonDAO {
 
     private Set<POJOPerson> persons = new HashSet<>();
-    {
-        persons.add(new POJOPerson("John", "Doe"));
-    }
 
     public void addPerson(POJOPerson p) {
         persons.add(p);

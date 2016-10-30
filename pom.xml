@@ -32,14 +32,13 @@
         <dependency>
             <groupId>com.gilecode.yagson</groupId>
             <artifactId>yagson-spring4-converters</artifactId>
-            <version>0.1-SNAPSHOT</version>
+            <version>0.1</version>
         </dependency>
     </dependencies>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
-
 
     <build>
         <plugins>
