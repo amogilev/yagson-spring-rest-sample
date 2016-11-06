@@ -13,7 +13,7 @@ import java.util.Set;
  * @author Andrey Mogilev
  */
 @RestController
-@RequestMapping(value = "json")
+@RequestMapping("/json")
 public class PersonJsonController {
 
     @Autowired

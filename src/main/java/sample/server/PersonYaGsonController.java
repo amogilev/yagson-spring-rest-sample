@@ -13,7 +13,7 @@ import java.util.Set;
  * @author Andrey Mogilev
  */
 @RestController
-@RequestMapping(value = "yagson")
+@RequestMapping("/yagson")
 public class PersonYaGsonController {
 
     @Autowired
